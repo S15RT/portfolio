@@ -417,9 +417,9 @@ img {
     }
  }
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .container {
-    width: 90%;
+    width: 95%;
   }
   .footer-info {
     flex-direction: column-reverse;
@@ -438,4 +438,4 @@ img {
     border: none;
     margin-bottom: 7px;
   }
-} */
+}
