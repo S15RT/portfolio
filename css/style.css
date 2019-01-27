@@ -387,6 +387,9 @@ img {
 }
 
 @media (max-width: 768px) {
+  .project-cards {
+    flex-direction: columns;
+  }
     .description_small{
         font-size: 10px;
     }
@@ -415,11 +418,23 @@ img {
         width: 95%;
         margin: 30px auto;
     }
- }
+}
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 490px) {
   .container {
     width: 95%;
+  }
+  .menu {
+    justify-content: center;
+    text-align: center;
+  }
+  .hero {
+    background: transparent; 
+  }
+  .hero-info {
+    width: 100%;
+    padding-bottom: 0;
+    text-align: center;
   }
   .footer-info {
     flex-direction: column-reverse;
