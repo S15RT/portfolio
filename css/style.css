@@ -418,6 +418,10 @@ img {
   .container {
     width: 90%;
   }
+  .project-card {
+    width: 95%;
+    margin: 15px auto;
+  }
   .footer-info {
     flex-direction: column-reverse;
   }
