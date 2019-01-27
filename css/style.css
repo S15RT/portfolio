@@ -416,7 +416,7 @@ img {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 340px;
+    width: 90%;
   }
   .footer-info {
     flex-direction: column-reverse;
