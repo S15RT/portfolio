@@ -387,6 +387,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
   .dscription_small {
     font-size: 10px;
   }
@@ -412,7 +415,9 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-  
+  .container {
+    width: 340px;
+  }
   .footer-info {
     flex-direction: column-reverse;
   }
